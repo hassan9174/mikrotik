@@ -1,0 +1,11 @@
+ISP Modem (public IP) -> Mikrotik on Ether 2 (client dhcp set to grab public IP from ISP)
+- > ether3 - offering DHCP to My lan (on this Mikrotik i have 3 ACTIVE VPN)
+--> connected to a switch <-- Other ISP modem (public IP) s
+
+
+Cloud0 have Static IP
+
+Cloud1 have Dynamic IP
+i need that on my first ISP connection there will be only VPN and other on other ISP connection 
+mikrotik give WIFI connection to other devices in DHCP
+and i'm in a shop so i have other 2 POS that they going on First connection to make payment
